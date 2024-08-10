@@ -1,0 +1,84 @@
+Package: dnsmasq-full
+Version: 2.90-2
+Depends: libc, libubus20230605, libnettle8, kmod-ipt-ipset, libnetfilter-conntrack3, nftables-json
+Provides: dnsmasq
+Source: package/feeds/pekmop1024/dnsmasq
+SourceName: dnsmasq-full
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: base
+Require-User: dnsmasq=453:dnsmasq=453
+SourceDateEpoch: 1722691115
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: mips_24kc
+Installed-Size: 163483
+Filename: dnsmasq-full_2.90-2_mips_24kc.ipk
+Size: 163817
+SHA256sum: 82de426f24aae967a1c44b9250bfc12c615274c5234409a3e92ed64e95c24ec6
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
+ and nftset, Conntrack support & NO_ID enabled by default.
+
+Package: dnsmasq
+Version: 2.90-2
+Depends: libc, libubus20230605
+Source: package/feeds/pekmop1024/dnsmasq
+SourceName: dnsmasq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: base
+Require-User: dnsmasq=453:dnsmasq=453
+SourceDateEpoch: 1722691115
+CPE-ID: cpe:/a:thekelleys:dnsmasq
+Architecture: mips_24kc
+Installed-Size: 137951
+Filename: dnsmasq_2.90-2_mips_24kc.ipk
+Size: 137991
+SHA256sum: 4ed6366ce3283294e842c120e4f511248fb7f54534bdd04bd351c30229b214d8
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: gl-e750-mcu-oled
+Version: 1.0-1
+Depends: libc, libjson-c5, libpthread, libuci20130104, libcurl4, libblobmsg-json20230523, libiwinfo20230701, libubox20230523, libubus20230605, libuuid1, jq, gl-e750-mcu, sms-tool, luci-app-3ginfo-lite
+Source: package/feeds/pekmop1024/gl-e750-mcu-oled
+SourceName: gl-e750-mcu-oled
+License: GPL-3.0
+Section: base
+SourceDateEpoch: 1722691115
+Architecture: mips_24kc
+Installed-Size: 6360
+Filename: gl-e750-mcu-oled_1.0-1_mips_24kc.ipk
+Size: 7252
+SHA256sum: b599c827d0e5fef995ebf128d86da5c993e2f0ce833198123981e0e0913e0b9a
+Description:  GL.inet GL-E750 MCU OLED script for vanilla OpenWrt
+
+Package: gl-e750-mcu
+Version: 3.0.50-1
+Depends: libc, libjson-c5, libpthread, libuci20130104, libcurl4, libblobmsg-json20230523, libiwinfo20230701, libubox20230523, libubus20230605, libuuid1
+Source: package/feeds/pekmop1024/gl-e750-mcu
+SourceName: gl-e750-mcu
+Section: base
+SourceDateEpoch: 1722691115
+Architecture: mips_24kc
+Installed-Size: 158298
+Filename: gl-e750-mcu_3.0.50-1_mips_24kc.ipk
+Size: 158373
+SHA256sum: f275e06e66d71da82a1d3c7ee6d5d51a1a183d7128d0d48074960083b5c20b38
+Description:  gl mcu data interface for gl-inet.
+
+Package: luci-app-3ginfo-lite
+Version: 1.0.74-20240810
+Depends: libc
+Source: package/feeds/pekmop1024/luci-app-3ginfo-lite
+SourceName: luci-app-3ginfo-lite
+Section: luci
+SourceDateEpoch: 1722691115
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 111894
+Filename: luci-app-3ginfo-lite_1.0.74-20240810_all.ipk
+Size: 112253
+SHA256sum: 1ae25771725e9100c5b66d689bba835f91e9953a78d5801d96d8ace6e18be2a6
+Description:  LuCI JS interface for the 3ginfo-lite. The package allows you to view the parameters of the mobile internet connection.
+
