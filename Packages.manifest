@@ -21,7 +21,7 @@ Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  and nftset, Conntrack support & NO_ID enabled by default.
 
 Package: gl-e750-mcu-oled
-Version: 1.0-2
+Version: 1.0-3
 Depends: libc, libjson-c5, libpthread, libuci20130104, libcurl4, libblobmsg-json20230523, libiwinfo20230701, libubox20230523, libubus20230605, libuuid1, jq, gl-e750-mcu, sms-tool, luci-app-3ginfo-lite, socat
 Source: package/feeds/pekmop1024/gl-e750-mcu-oled
 SourceName: gl-e750-mcu-oled
@@ -29,10 +29,10 @@ License: GPL-3.0
 Section: base
 SourceDateEpoch: 1722691115
 Architecture: mips_24kc
-Installed-Size: 6352
-Filename: gl-e750-mcu-oled_1.0-2_mips_24kc.ipk
-Size: 7253
-SHA256sum: 22375d6c164195c97c92cc9ea91e8a3ded169abacc82502b0eeeb52c234514eb
+Installed-Size: 6355
+Filename: gl-e750-mcu-oled_1.0-3_mips_24kc.ipk
+Size: 7249
+SHA256sum: eac967d8fc011a6af935f2125378aab6da1282604fd053f45e43e42558547a78
 Description:  GL.inet GL-E750 MCU OLED script for vanilla OpenWrt
 
 Package: gl-e750-mcu
