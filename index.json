@@ -1,1 +1,1 @@
-{"architecture": "mips_24kc", "packages":{"dnsmasq-full": "2.90-2", "dnsmasq": "2.90-2", "gl-e750-mcu-oled": "1.0-1", "gl-e750-mcu": "3.0.50-1", "luci-app-3ginfo-lite": "1.0.74-20240810"}}
+{"architecture": "mips_24kc", "packages":{"dnsmasq-full": "2.90-2", "gl-e750-mcu-oled": "1.0-2", "gl-e750-mcu": "3.0.50-1", "luci-app-3ginfo-lite": "1.0.75-20240811"}}

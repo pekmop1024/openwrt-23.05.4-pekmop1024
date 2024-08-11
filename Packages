@@ -15,29 +15,16 @@ Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
  This is a fully configurable variant with DHCPv4, DHCPv6, DNSSEC, Authoritative DNS
  and nftset, Conntrack support & NO_ID enabled by default.
 
-Package: dnsmasq
-Version: 2.90-2
-Depends: libc, libubus20230605
-License: GPL-2.0
-Section: base
-CPE-ID: cpe:/a:thekelleys:dnsmasq
-Architecture: mips_24kc
-Installed-Size: 137951
-Filename: dnsmasq_2.90-2_mips_24kc.ipk
-Size: 137991
-SHA256sum: 4ed6366ce3283294e842c120e4f511248fb7f54534bdd04bd351c30229b214d8
-Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
-
 Package: gl-e750-mcu-oled
-Version: 1.0-1
-Depends: libc, libjson-c5, libpthread, libuci20130104, libcurl4, libblobmsg-json20230523, libiwinfo20230701, libubox20230523, libubus20230605, libuuid1, jq, gl-e750-mcu, sms-tool, luci-app-3ginfo-lite
+Version: 1.0-2
+Depends: libc, libjson-c5, libpthread, libuci20130104, libcurl4, libblobmsg-json20230523, libiwinfo20230701, libubox20230523, libubus20230605, libuuid1, jq, gl-e750-mcu, sms-tool, luci-app-3ginfo-lite, socat
 License: GPL-3.0
 Section: base
 Architecture: mips_24kc
-Installed-Size: 6360
-Filename: gl-e750-mcu-oled_1.0-1_mips_24kc.ipk
-Size: 7252
-SHA256sum: b599c827d0e5fef995ebf128d86da5c993e2f0ce833198123981e0e0913e0b9a
+Installed-Size: 6352
+Filename: gl-e750-mcu-oled_1.0-2_mips_24kc.ipk
+Size: 7253
+SHA256sum: 22375d6c164195c97c92cc9ea91e8a3ded169abacc82502b0eeeb52c234514eb
 Description:  GL.inet GL-E750 MCU OLED script for vanilla OpenWrt
 
 Package: gl-e750-mcu
@@ -52,13 +39,13 @@ SHA256sum: f275e06e66d71da82a1d3c7ee6d5d51a1a183d7128d0d48074960083b5c20b38
 Description:  gl mcu data interface for gl-inet.
 
 Package: luci-app-3ginfo-lite
-Version: 1.0.74-20240810
+Version: 1.0.75-20240811
 Depends: libc
 Section: luci
 Architecture: all
-Installed-Size: 111894
-Filename: luci-app-3ginfo-lite_1.0.74-20240810_all.ipk
-Size: 112253
-SHA256sum: 1ae25771725e9100c5b66d689bba835f91e9953a78d5801d96d8ace6e18be2a6
+Installed-Size: 112324
+Filename: luci-app-3ginfo-lite_1.0.75-20240811_all.ipk
+Size: 112674
+SHA256sum: a23f31de0eb236d72a4329600cb7aa9b541c122d8629c762d1034deac47ad097
 Description:  LuCI JS interface for the 3ginfo-lite. The package allows you to view the parameters of the mobile internet connection.
 
